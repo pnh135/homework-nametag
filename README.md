@@ -1,8 +1,19 @@
-# React + Vite
+# 프로젝트 소개 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+이 프로젝트는 가장 **기초적인 CRUD 컴포넌트를 직접 간단하게 만들어 봄**으로서 **react의 렌더링 실행 과정**을 익히기 위함이다.
 
-Currently, two official plugins are available:
+인풋 박스에 이름, 나이를 입력하고 **실행하기 버튼**을 누르면 이미 있는 데이터 아래에 입력한 값으로 된 새로운 div가 생성된다.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**삭제 버튼**을 누르면 해당 div에 들어간 값을 삭제한다.
+
+# 프로젝트 정보
+
+사용: `React.js`, `html5`, `css3`
+소요 시간: `6 hour`
+
+# 프로젝트 진행 과정 (트러블 슈팅)
+
+- [useState 사용 과정](https://velog.io/@pna9904/122-react-useState에-배열-할당하기)
+
+
+- [onClick 인자 오류 수정](https://velog.io/@pna9904/122-react-button-이벤트핸들러-onClick-함수-오류-수정)
