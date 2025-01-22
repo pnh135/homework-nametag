@@ -60,10 +60,10 @@ function App() {
       <div>
         {users.map((user)=>{
           return (
-            <ul key={user.id}>
-              {user.name}
-              {user.age}
-              <button onClick={() => removeUser(user.id)}>삭제</button>
+            <ul key={user.id} className="show-user">
+              <div>{user.name}</div>
+              <div>{user.age}</div>
+              <div><button onClick={() => removeUser(user.id)}>삭제</button></div>
             </ul>
           );
         })}
